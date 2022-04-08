@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet" targetNamespace="http://tempuri.org/DataSet.xsd" xmlns:mstns="http://tempuri.org/DataSet.xsd" xmlns="http://tempuri.org/DataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet" msprop:Generator_UserDSName="DataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="plData" msprop:Generator_TableClassName="plDataDataTable" msprop:Generator_TableVarName="tableplData" msprop:Generator_TablePropName="plData" msprop:Generator_RowDeletingName="plDataRowDeleting" msprop:Generator_RowChangingName="plDataRowChanging" msprop:Generator_RowEvHandlerName="plDataRowChangeEventHandler" msprop:Generator_RowDeletedName="plDataRowDeleted" msprop:Generator_UserTableName="plData" msprop:Generator_RowChangedName="plDataRowChanged" msprop:Generator_RowEvArgName="plDataRowChangeEvent" msprop:Generator_RowClassName="plDataRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="incLoan" msprop:Generator_ColumnVarNameInTable="columnincLoan" msprop:Generator_ColumnPropNameInRow="incLoan" msprop:Generator_ColumnPropNameInTable="incLoanColumn" msprop:Generator_UserColumnName="incLoan" type="xs:string" minOccurs="0" />
+              <xs:element name="incSav" msprop:Generator_ColumnVarNameInTable="columnincSav" msprop:Generator_ColumnPropNameInRow="incSav" msprop:Generator_ColumnPropNameInTable="incSavColumn" msprop:Generator_UserColumnName="incSav" type="xs:string" minOccurs="0" />
+              <xs:element name="expDep" msprop:Generator_ColumnVarNameInTable="columnexpDep" msprop:Generator_ColumnPropNameInRow="expDep" msprop:Generator_ColumnPropNameInTable="expDepColumn" msprop:Generator_UserColumnName="expDep" type="xs:string" minOccurs="0" />
+              <xs:element name="expSal" msprop:Generator_ColumnVarNameInTable="columnexpSal" msprop:Generator_ColumnPropNameInRow="expSal" msprop:Generator_ColumnPropNameInTable="expSalColumn" msprop:Generator_UserColumnName="expSal" type="xs:string" minOccurs="0" />
+              <xs:element name="expAllw" msprop:Generator_ColumnVarNameInTable="columnexpAllw" msprop:Generator_ColumnPropNameInRow="expAllw" msprop:Generator_ColumnPropNameInTable="expAllwColumn" msprop:Generator_UserColumnName="expAllw" type="xs:string" minOccurs="0" />
+              <xs:element name="expMisc" msprop:Generator_ColumnVarNameInTable="columnexpMisc" msprop:Generator_ColumnPropNameInRow="expMisc" msprop:Generator_ColumnPropNameInTable="expMiscColumn" msprop:Generator_UserColumnName="expMisc" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
